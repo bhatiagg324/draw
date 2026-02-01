@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Drawing Board</title>
+<style>
+  body {
+    font-family: sans-serif;
+    background: #f5f5f5;
+  }
+
+  #toolbar {
+    margin-bottom: 10px;
+  }
+
+  #clearBtn {
+    font-size: 18px;
+    padding: 6px 10px;
+    cursor: pointer;
+  }
+
+  #board {
+    background: white;
+    border: 2px dashed #333;
+  }
+</style>
+</head>
+<body>
+
+<h2>SVG Drawing Board</h2>
+
+<div id="toolbar">
+  <button id="clearBtn">🗑️ Clear</button>
+</div>
+
+<svg id="board" width="500" height="300"></svg>
+
+<script src="inex.js"></script>
+</body>
+</html>
